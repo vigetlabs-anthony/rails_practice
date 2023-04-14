@@ -6,6 +6,7 @@ A repo for my Rails practice / exercises
 ## Goals
 - Setup a Rails app
 - Add pages and route handling
+- Add navigation between pages
 - Create a hot button
 - Add Tailwind
 - Build a component using Tailwind
