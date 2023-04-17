@@ -1,0 +1,40 @@
+<h1>About Partials</h1>
+<h2>
+    How do you create a partial?
+</h2>
+<ol>
+    <li>
+        Create a subdirectory named shared within the views directory: app/views/shared
+    </li>
+    <li>
+        Create a file to store your code and name it using the syntax: _[partial].html.erb
+    </li>
+    <li>
+        Add your code
+    </li>
+    <li>
+        Insert the partial, ie: &lt;%= render partial: 'shared/[partial]' %&gt; (usually within the app/views/layouts/application.html.erb)
+    </li>
+</ol>
+<h2>
+    Why is a partial called a partial?
+</h2>
+<p>
+    A partial is a reusable chunk of view code that can be included in multiple views. It's called a partial because it represents a part of a larger view. Using partials helps to keep views organized, reduces code duplication, and makes it easier to maintain your application.
+</p>
+
+<h2>
+    Why is the directory/folder that stores partials named 'shared'?
+</h2>
+<p>
+    The directory/folder that stores partials is named shared because it contains partials, which are bits of code shared or used by multiple pages
+</p>
+
+<ul>
+    <li>
+        <a href="https://gorails.com/blog/how-to-use-partials-in-rails">How to use partials in rails</a>
+    </li>
+    <li>
+        <a href="https://gorails.com/episodes/rails-for-beginners-part-8-using-partials-for-the-navbar">Rails for Beginners Part 8: Using Partials for the Navbar</a>
+    </li>
+</ul>

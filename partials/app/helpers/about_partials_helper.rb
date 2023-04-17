@@ -1,0 +1,2 @@
+module AboutPartialsHelper
+end
