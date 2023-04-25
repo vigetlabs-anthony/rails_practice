@@ -1,13 +1,13 @@
-<!-- <p style="color: green"><%= notice %></p> -->
-
 <h1>Friends</h1>
 
 <div id="friends">
   <% @friends.each do |friend| %>
-    <%= render friend %>
-    <p>
-      <%= link_to "Show this friend", friend %>
-    </p>
+    <% if friend.user === current_user %>  
+      <%= render friend %>
+      <p>
+        <%= link_to "Show this friend", friend %>
+      </p>
+    <% end %>
   <% end %>
 </div>
 
