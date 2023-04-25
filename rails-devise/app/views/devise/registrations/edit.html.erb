@@ -1,5 +1,10 @@
 <h2>Edit <%= resource_name.to_s.humanize %></h2>
 
+<p>this is the edit page</p>
+<p>
+  <span>this is the current_user.id </span><%= current_user.id %>
+</p>
+
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
 
